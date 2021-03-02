@@ -48,7 +48,7 @@ namespace Servicios
             }
             else
             {
-                MessageBox.Show("Error, datos incompletos");
+                MessageBox.Show("Error, datos incompletos...");
             }
         }
     }
