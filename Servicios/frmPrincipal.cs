@@ -36,5 +36,11 @@ namespace Servicios
                 oFrmLogin.Show();
             }
         }
+
+        private void mantenimientoDeEmpresaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMantenimientoEmpresa oMantEmpresa = new frmMantenimientoEmpresa();
+            oMantEmpresa.ShowDialog();
+        }
     }
 }

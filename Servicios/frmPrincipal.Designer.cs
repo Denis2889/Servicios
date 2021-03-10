@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.listaDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoDeEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -38,6 +39,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.listaDeUsuariosToolStripMenuItem,
+            this.mantenimientoDeEmpresaToolStripMenuItem,
             this.cerrarSesiónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -58,6 +60,13 @@
             this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
+            // mantenimientoDeEmpresaToolStripMenuItem
+            // 
+            this.mantenimientoDeEmpresaToolStripMenuItem.Name = "mantenimientoDeEmpresaToolStripMenuItem";
+            this.mantenimientoDeEmpresaToolStripMenuItem.Size = new System.Drawing.Size(165, 20);
+            this.mantenimientoDeEmpresaToolStripMenuItem.Text = "Mantenimiento de Empresa";
+            this.mantenimientoDeEmpresaToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeEmpresaToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -81,5 +90,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem listaDeUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoDeEmpresaToolStripMenuItem;
     }
 }

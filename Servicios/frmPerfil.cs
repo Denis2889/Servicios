@@ -49,8 +49,9 @@ namespace Servicios
             if (Convert.ToInt32(cmbPerfil.SelectedValue) == oLogin._IDPerfil)
             {
                 frmPrincipal oFrmPrincipal = new frmPrincipal();
-                oFrmPrincipal.Show();
+                oFrmPrincipal.Show(); 
                 this.Hide();
+                MessageBox.Show("Bien Ingresaste al sistema");
             }
             else
             {
