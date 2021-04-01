@@ -42,5 +42,12 @@ namespace Servicios
             frmMantenimientoEmpresa oMantEmpresa = new frmMantenimientoEmpresa();
             oMantEmpresa.ShowDialog();
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //frmCliente oCliente = new frmCliente();
+            //oCliente.ShowDialog();
+
+        }
     }
 }

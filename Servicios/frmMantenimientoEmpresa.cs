@@ -37,8 +37,9 @@ namespace Servicios
                txtRuc.Text = txtDRuc.Text;
                 oConexion.Cerrar();
             }
-            catch
+            catch(Exception ex)
             {
+                MessageBox.Show("Error de" + ex.Message);
             }
         }
         void LimpiarText()

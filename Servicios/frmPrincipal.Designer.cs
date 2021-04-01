@@ -30,8 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.listaDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoDeEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,6 +41,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.listaDeUsuariosToolStripMenuItem,
             this.mantenimientoDeEmpresaToolStripMenuItem,
+            this.clienteToolStripMenuItem,
             this.cerrarSesiónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -54,6 +56,13 @@
             this.listaDeUsuariosToolStripMenuItem.Text = "Lista de Usuarios";
             this.listaDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.listaDeUsuariosToolStripMenuItem_Click);
             // 
+            // mantenimientoDeEmpresaToolStripMenuItem
+            // 
+            this.mantenimientoDeEmpresaToolStripMenuItem.Name = "mantenimientoDeEmpresaToolStripMenuItem";
+            this.mantenimientoDeEmpresaToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.mantenimientoDeEmpresaToolStripMenuItem.Text = "Empresa";
+            this.mantenimientoDeEmpresaToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeEmpresaToolStripMenuItem_Click);
+            // 
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
@@ -61,12 +70,12 @@
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
-            // mantenimientoDeEmpresaToolStripMenuItem
+            // clienteToolStripMenuItem
             // 
-            this.mantenimientoDeEmpresaToolStripMenuItem.Name = "mantenimientoDeEmpresaToolStripMenuItem";
-            this.mantenimientoDeEmpresaToolStripMenuItem.Size = new System.Drawing.Size(165, 20);
-            this.mantenimientoDeEmpresaToolStripMenuItem.Text = "Mantenimiento de Empresa";
-            this.mantenimientoDeEmpresaToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeEmpresaToolStripMenuItem_Click);
+            this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.clienteToolStripMenuItem.Text = "Cliente";
+            this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -91,5 +100,6 @@
         private System.Windows.Forms.ToolStripMenuItem listaDeUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoDeEmpresaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
     }
 }
